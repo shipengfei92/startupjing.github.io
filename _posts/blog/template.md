@@ -9,4 +9,4 @@ category: blog
 
 
 
-[zihaolucky]:    http://zihaolucky.github.io  "zihaolucky"
+[startupjing]:    http://startupjing.github.io  "startupjing"
