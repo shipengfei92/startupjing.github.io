@@ -4,7 +4,7 @@
  */
 
 /* 重置浏览器CSS */
-html{background-color: rgba(153,204,0,0.5);}
+html{background-color: rgba(150,200,0,0.4);}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0;}
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
 body,button,input,select,textarea{font-size:12px/1.5;}
@@ -77,7 +77,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     left: 0;
     width: 30%;
     height: 100%;
-    max-width: 500px;
+    max-width: 400px;
     background:#000;
     box-shadow:inset -1px 0 0 rgba(0,0,0,0.3);
     background-size:cover;
@@ -87,7 +87,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-image:url(http://wy.logozhizuowang.com/wyimages/w/chahua141.jpg);
 }
 .opinion .aside{
-    background-image:url(http://pic23.nipic.com/20120815/3296828_224724217148_2.jpg);
+    background-image:url(http://img.taopic.com/uploads/allimg/111130/573-1111301G61244.jpg);
 }
 .project .aside{
     background-image:url(http://img.taopic.com/uploads/allimg/120717/201622-120GFJ02121.jpg)
