@@ -2,7 +2,7 @@
 layout: post
 title:  "CC150 Problem 1.1"
 date:   2014-06-17
-categories: blog
+categories: coding_problems
 ---
 
 # Check Unique Character in a String

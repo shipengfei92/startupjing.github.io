@@ -2,7 +2,7 @@
 layout: post
 title:  "CC150 Problem 2.1"
 date:   2014-07-02
-categories: blog
+categories: coding_problems
 ---
 
 # Remove duplicate in a list

@@ -2,7 +2,7 @@
 layout: post
 title:  "CC150 Problem 2.4"
 date:   2014-07-02
-categories: blog
+categories: coding_problems
 ---
 
 # Partition the list using given value

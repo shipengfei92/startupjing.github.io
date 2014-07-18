@@ -2,7 +2,7 @@
 layout: post
 title:  "CC150 Problem 1.6"
 date:   2014-06-18
-categories: blog
+categories: coding_problems
 ---
 
 # Matrix Rotation

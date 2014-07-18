@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CC150 Problem 1.5"
-categories: blog
+categories: coding_problems
 ---
 
 # Compress String

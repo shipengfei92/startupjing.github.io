@@ -2,7 +2,7 @@
 layout: post
 title:  "CC150 Problem 2.6"
 date:   2014-07-02
-categories: blog
+categories: coding_problems
 ---
 
 # Find the beginning of a loop in a circular linked list
