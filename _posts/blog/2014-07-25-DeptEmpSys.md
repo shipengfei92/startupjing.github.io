@@ -2,8 +2,9 @@
 layout: post
 title: JavaWeb: Dept-Emp Management System
 description: Simple Department-Employee Management System using SpringMVC+Hibernate
-categories: blog
+category: blog
 ---
+
 
 My first JavaWeb Project 
 
