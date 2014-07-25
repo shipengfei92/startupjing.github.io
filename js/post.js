@@ -27,7 +27,7 @@ $(document).ready(function(){
     //**评论的代码也删掉哦***
     window.disqus_shortname = 'startupjing'; // required: replace example with your forum shortname
     $('#disqus_container .comment').on('click',function(){
-        $(this).html('加载中...');
+        $(this).html('loading...');
         var that = this;
         $.getScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()});
     });
