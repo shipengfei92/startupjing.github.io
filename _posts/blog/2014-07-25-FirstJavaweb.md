@@ -58,6 +58,6 @@ See code on my [GitHub][2]
 
 I will describe more about the system in Project section
 
-[startupjing]:    http://startupjing.github.io  "startupjing"
+[startupjing]: http://startupjing.github.io  "startupjing"
 [1]:    {{ page.url}}  ({{ page.title }})
 [2]: https://github.com/startupjing/DeptAndEmp-Management-System
