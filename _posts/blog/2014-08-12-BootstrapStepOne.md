@@ -27,7 +27,7 @@ See code on my [GitHub][2]
 
 * Home Page
 
-![test1](/images/DeptEmp/home.png)
+![test1](/images/DeptEmpSys/home.png)
 
 * Login
 
