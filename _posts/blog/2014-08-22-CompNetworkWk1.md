@@ -8,6 +8,7 @@ categories: blog
 ## Uses of Networks
 
 ### Why we build networks
+
 * For user communication: 
 Enable remote communicate;
 Need low latency for interactivity
@@ -32,21 +33,25 @@ Large network is more valuable than small one
 ## Network components
 
 ### Parts of a network
+
 * App or user: use the network (Skype,Amazon)
 * Host: support apps (laptop, mobile)
 * Router: relay messages between links
 * Link: connect nodes (wire, wireless)
 
 ### Type of links
+
 * Full-duplex--bidirectional
 * Half-duplex--bidirectional, but not both direction at the same time
 * Simplex--unidirectional
 
 ### Wireless links
+
 * Message is broadcast-received by all nodes in range
 * Often show logical links-not all possible connectivity
 
 ### Network names by scale
+
 * PAN-personal: bluetooth
 * LAN-local: wifi, ethernet
 * MAN-metropolitan: cable, DSL
@@ -54,10 +59,12 @@ Large network is more valuable than small one
 * The Internet-network of all networks
 
 ### Network boundaries
+
 * network part: host+router+link
 * ISP part: router+link
 
 ### Key interfaces
+
 * Apps-Network: define how apps use the network; sockets are widely used in practice
 * Network-Network: define how nodes work together; 
 traceroute can peek in the network
