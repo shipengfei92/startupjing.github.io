@@ -5,6 +5,7 @@ description: Class Summary
 categories: blog
 ---
 
+
 ## Uses of Networks
 
 ### Why we build networks
@@ -15,9 +16,6 @@ Need low latency for interactivity
 * For resource sharing:
 More cost effective than dedicated resources per user;
 Network links are shared via `statistical multiplexing`
-* Statistical Multiplexing:
-Sharing of network bandwidth between users according to the statistics of their demand;
-Userful because users are mostly idle and their traffic is bursty;
 * For content delivery:
 Same content delivered to many users;
 More efficient than sending a copy all th way to each user--use `replicas`
@@ -26,9 +24,16 @@ Let computers interact with other computers;
 Enable automated information procesing across different parties;
 * For Connect computers to physical world:
 Gathering sensor data and manipulate the world
+
+### Concepts
+
+* Statistical Multiplexing:
+Sharing of network bandwidth between users according to the statistics of their demand;
+Userful because users are mostly idle and their traffic is bursty;
 * Value of connectivity:
 Value of a network of n nodes is proportional to n^2;
 Large network is more valuable than small one
+
 
 ## Network components
 
@@ -68,7 +73,6 @@ Large network is more valuable than small one
 * Apps-Network: define how apps use the network; sockets are widely used in practice
 * Network-Network: define how nodes work together; 
 traceroute can peek in the network
-
 
 
 [startupjing]:    http://startupjing.github.io  "startupjing"
