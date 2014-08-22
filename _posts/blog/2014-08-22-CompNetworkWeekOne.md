@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CompNetwork Week One
+title: Computer Network Week One
 description: Class Summary
 categories: blog
 ---
