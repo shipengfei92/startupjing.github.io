@@ -89,13 +89,13 @@ let apps talk to each other via hosts and hide details of the network
 ### Socket API
 * Sockets let apps attach to the local network at different ports
 * API table
-![test1](/images/CompNetwork/APItable.png)
+![1](/images/CompNetwork/APItable.png)
 
 ### Using Sockets
 * Main Process
-![test2](/images/CompNetwork/process.png)
+![2](/images/CompNetwork/process.png)
 * Process with API calls (* is block calls)
-![test3](/images/CompNetwork/processwithcall.png)
+![3](/images/CompNetwork/processwithcall.png)
 
 ## Traceroute
 Network service API hides details--Apps talk to each other with no real idea inside network.
@@ -103,7 +103,7 @@ Network service API hides details--Apps talk to each other with no real idea ins
 ### How it works
 Probes successive hops to find network path from local host to remote host
 
-![test4](/images/CompNetwork/traceroute.png)
+![4](/images/CompNetwork/traceroute.png)
 
 ### Using traceroute
 On terminal: type `traceroute www.example.com`
@@ -118,25 +118,25 @@ Protocols and layers is the main structuring method used to divide up network fu
 * Each instance of a protocal talks virtually to its peer using the protocol
 * Each instance of a protocol uses only the services of the lower layer
 * Basic diagram
-![test5](/images/CompNetwork/protocl.png)
+![5](/images/CompNetwork/protocl.png)
 * Protocol stack
-![test6](/images/CompNetwork/protocolstack.png)
+![6](/images/CompNetwork/protocolstack.png)
 
 ### Encapsulation
 * Encapsulation is the mechanism used to effect protocol layering. 
 * Lower layers wraps higher layer content, adding ites own information to make a new message for delivery.
-![test7](/images/CompNetwork/encapsulation.png)
+![7](/images/CompNetwork/encapsulation.png)
 
 ### Demultiplexing
 * Incoming message must be passed to the protocols that it uses.
 * Demultiplexing keys
-![test8](/images/CompNetwork/demultiplexing.png)
+![8](/images/CompNetwork/demultiplexing.png)
 
 ### Advantage of Layering
 * Information hiding and reuse
-![pic1](/images/CompNetwork/adv1.png)
+![9](/images/CompNetwork/adv1.png)
 * Using information to connect different systems
-![pic2](/images/CompNetwork/adv2.png)
+![10](/images/CompNetwork/adv2.png)
 
 ### Disadvantage of Layering
 * Adds overhead but minor for long messages
