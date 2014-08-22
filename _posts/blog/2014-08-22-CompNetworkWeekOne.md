@@ -5,6 +5,8 @@ description: Class Summary
 categories: blog
 ---
 
+This is the summary of week one.
+
 
 ## Uses of Networks
 
