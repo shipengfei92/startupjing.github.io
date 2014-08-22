@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Computer Network Week 1
+title: CompNetwork Week One
 description: Class Summary
 categories: blog
 ---
@@ -73,8 +73,3 @@ traceroute can peek in the network
 
 [startupjing]:    http://startupjing.github.io  "startupjing"
 [1]:    {{ page.url}}  ({{ page.title }})
-
-
-
-
-
