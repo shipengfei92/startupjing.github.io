@@ -118,7 +118,7 @@ Protocols and layers is the main structuring method used to divide up network fu
 * Each instance of a protocal talks virtually to its peer using the protocol
 * Each instance of a protocol uses only the services of the lower layer
 * Basic diagram
-![5](/images/CompNetwork/protocl.png)
+![5](/images/CompNetwork/protocol.png)
 * Protocol stack
 ![6](/images/CompNetwork/protocolstack.png)
 
@@ -134,18 +134,50 @@ Protocols and layers is the main structuring method used to divide up network fu
 
 ### Advantage of Layering
 * Information hiding and reuse
-![9](/images/CompNetwork/adv1.png)
+![9](/images/CompNetwork/advone.png)
 * Using information to connect different systems
-![10](/images/CompNetwork/adv2.png)
+![10](/images/CompNetwork/advtwo.png)
 
 ### Disadvantage of Layering
 * Adds overhead but minor for long messages
 * Hides information: App might care whether running over wired or wireless
 
 
+## Reference Models
+What functionality should we implement at which layer?
+-Reference models provide framework that guide us.
+
+### OSI 7 Layer Reference Model
+Influential but not used in practice
+![11](/images/CompNetwork/osimodel.png)
+
+### Internet Reference Model
+Based on experience; Use IP as the network layer
+
+* Model diagram
+![12](/images/CompNetwork/internetmodel.png)
+
+* Protocols in each layer
+![13](/images/CompNetwork/protocolinlayer.png)
+
+### Layer-based Names
+* For units of data
+![14](/images/CompNetwork/namedata.png)
+
+* For devices in the network
+![15](/images/CompNetwork/namedevice.png)
+![16](/images/CompNetwork/namedevicetwo.png)
+
+### Note about layers
+* May have multiple protocols working together in one layer
+* May be difficult to assign a specific protocol to a layer
 
 
-## Ending
+## Summary
+* Read network diagrams
+* How the internet protocols are organized
+* Reference model
+
 
 [startupjing]:    http://startupjing.github.io  "startupjing"
 [1]:    {{ page.url}}  ({{ page.title }})
