@@ -11,19 +11,19 @@ Here are some basic commands in UNIX
 #### man
 Display manual page
 
-* man -S3 printf
-* man ls
-* man man
-* man -k compare
+* `man -S3 printf`
+* `man ls`
+* `man man`
+* `man -k compare`
 
 ### Directories
 Commands for directory
 
-* pwd
-* cd / or cd pathname or cd ..
-* ls -l(extra info) or ls -a(all files)
-* mkdir
-* rmdir
+* `pwd`
+* `cd /` or `cd pathname` or `cd ..`
+* `ls -l(extra info)` or `ls -a`(all files)
+* `mkdir`
+* `rmdir`
 
 ### Displaying files
 Display file contents
