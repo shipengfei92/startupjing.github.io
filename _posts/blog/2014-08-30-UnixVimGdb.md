@@ -5,6 +5,7 @@ description: Some basic commands for Unix, Vim and GDB
 categories: blog
 ---
 
+
 ## Basic Unix
 
 #### man
@@ -132,14 +133,52 @@ Here are some basic commands for Vim
 
 * `:! [command]` such as `:! ls` and `:! pwd`
 
-## Ending
+## Basic GDB
 
+### Running program
+* `gdb [hello.c]` start GDB
+* `run` run program
+* `c` or `c [count]` continue program
+* `kill` or `Control+c` kill running program
+
+### Breakpoints
+* `break [function name]` breakpoint at a function
+* `break [filename]: [line]` breakpoint in file at certain line
+* `info break` information about breakpoints
+* `delete [breakpoint num]` delete certain breakpoint
+* `enable [break num]` or `disable [break num]` enable and disable breakpoint
+* `clear` clear all breakpoints
+* `cond [breakpoint num] [condition]` break at this point if condition statisfied
+
+### Trace
+* `step` and `stepi` next instruction, go into function
+* `next` and `nexti` next instruction, don't go into function
+
+### Track variables
+* `print [var]` print variable info
+* `print &[var]` print address of variable
+* `display [var]` print variable after each stepping
+* `delete display [var num]` delete variable display
+* `x/[number of bytes] [start addr]` print memory
+* `info registers` display registers
+
+### Program control
+* `set var [var]=[val]` set variable value
+
+### View code
+* `list` or `list [function]` list nearby code
+* `disassemble [label/function]` view assembly code
+
+### Cheat sheet
+See more on Marc Haisenko's GDB [cheat sheet][2]
+
+## Ending
 More in the future
 
 
 [startupjing]: http://startupjing.github.io  "startupjing"
 [1]: {{ page.url}}  ({{ page.title }})
-
+[2]: /files/post/gdbsheet.pdf
 
 
 
