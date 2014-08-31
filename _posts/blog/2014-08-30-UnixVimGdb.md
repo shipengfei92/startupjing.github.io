@@ -5,6 +5,7 @@ description: Some basic commands for Unix, Vim and GDB
 categories: blog
 ---
 
+**This post may be long. You can use navigation bar on the right to find what you need.**
 
 ## Basic Unix
 
