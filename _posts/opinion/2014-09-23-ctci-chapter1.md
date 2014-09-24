@@ -7,7 +7,6 @@ categories: opinion
 
 ## Beginning
 I have completed CTCI chapter 1 problems today.
-
 This chapter is about arrays and strings.
 
 ## Solutions
