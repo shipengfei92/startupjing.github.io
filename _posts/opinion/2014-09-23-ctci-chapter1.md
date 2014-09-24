@@ -6,7 +6,7 @@ categories: opinion
 ---
 
 ## Beginning
-I have completed CTCI chapter 1 problems today.
+I have completed CTCI chapter 1 problems today.⋅⋅
 This chapter is about arrays and strings.
 
 ## Solutions
@@ -21,8 +21,8 @@ No need to say more ... but
 
 * Implementation: 
 
-Using array: collision may occur
-Using linkedlist: get the object with key first and then search corresponding linkedlist
+Using array: collision may occur⋅⋅
+Using linkedlist: get the object with key first and then search corresponding linkedlist⋅⋅
 Using BST: O(logn) lookup time for balanced tree, less space
 
 * Usage
