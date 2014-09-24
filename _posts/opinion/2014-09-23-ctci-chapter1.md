@@ -20,11 +20,15 @@ Please come to my [Github repo][2] and see my solutions
 No need to say more ... but
 
 * Implementation: 
+
 Using array: collision may occur
+
 Using linkedlist: get the object with key first and then search corresponding linkedlist
+
 Using BST: O(logn) lookup time for balanced tree, less space
 
 * Usage
+
 `HashMap<Object, Object> map = new HashMap<Object, Object>()`
 
 `map.put(key,val)`
@@ -37,7 +41,9 @@ No need to say more...
 #### StringBuffer
 
 * Why
+
 Each string concatenation makes a new copy every time, O(n^2) time.
+
 StringBuffer is a better choice
 
 * Usage
@@ -48,6 +54,7 @@ StringBuffer is a better choice
 `String s = buff.toString`
 
 ### Something to consider before solving problems
+
 * What kind of characters does the string contain? ASCII? or sth else?
 * Use comparison of length, check null or invalid string to get immediate result
 * Case sensitive? Whitespace significant?
