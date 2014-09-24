@@ -6,7 +6,7 @@ categories: opinion
 ---
 
 ## Beginning
-I have completed CTCI chapter 1 problems today.⋅⋅
+I have completed CTCI chapter 1 problems today.   
 This chapter is about arrays and strings.
 
 ## Solutions
@@ -21,16 +21,13 @@ No need to say more ... but
 
 * Implementation: 
 
-Using array: collision may occur⋅⋅
-Using linkedlist: get the object with key first and then search corresponding linkedlist⋅⋅
-Using BST: O(logn) lookup time for balanced tree, less space
+Using array: collision may occur   
+Using linkedlist: get the object with key first and then search corresponding linkedlist   
+Using BST: O(logn) lookup time for balanced tree, less space   
 
 * Usage
-
-`HashMap<Object, Object> map = new HashMap<Object, Object>()`
-
-`map.put(key,val)`
-
+`HashMap<Object, Object> map = new HashMap<Object, Object>()`   
+`map.put(key,val)`   
 `more ...`
 
 #### ArrayList
@@ -40,15 +37,12 @@ No need to say more...
 
 * Why
 
-Each string concatenation makes a new copy every time, O(n^2) time.
-
+Each string concatenation makes a new copy every time, O(n^2) time.    
 StringBuffer is a better choice
 
 * Usage
-`StringBuffer buff = new StringBuffer()`
-
-`buff.append(str)`
-
+`StringBuffer buff = new StringBuffer()`    
+`buff.append(str)`    
 `String s = buff.toString`
 
 ### Something to consider before solving problems
@@ -67,7 +61,7 @@ StringBuffer is a better choice
 * String rotation: s1=xy, s2=yx, if s2 is substring of s1s1, then s2 is rotation of s1
 
 ## Ending
-I will keep updating if more useful tricks are found.
+I will keep updating if more useful tricks are found.    
 Begin chapter 2 tomorrow!
 
 
