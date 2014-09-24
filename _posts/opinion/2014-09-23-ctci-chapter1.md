@@ -26,7 +26,9 @@ Using BST: O(logn) lookup time for balanced tree, less space
 
 * Usage
 `HashMap<Object, Object> map = new HashMap<Object, Object>()`
+
 `map.put(key,val)`
+
 `more ...`
 
 #### ArrayList
@@ -40,7 +42,9 @@ StringBuffer is a better choice
 
 * Usage
 `StringBuffer buff = new StringBuffer()`
+
 `buff.append(str)`
+
 `String s = buff.toString`
 
 ### Something to consider before solving problems
