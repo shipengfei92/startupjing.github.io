@@ -2,7 +2,7 @@
 layout: post
 title: Bootstrap Step One
 description: Improve front-end display of my previous web project using Bootstrap
-category: blog
+category: project
 ---
 
 Bootstrap Step One

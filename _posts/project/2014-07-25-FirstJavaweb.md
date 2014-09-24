@@ -2,7 +2,7 @@
 layout: post
 title: First JavaWeb
 description: Simple Department-Employee Management System using SpringMVC+Hibernate
-category: blog
+category: project
 ---
 
 
