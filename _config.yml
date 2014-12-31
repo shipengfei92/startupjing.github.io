@@ -8,15 +8,13 @@ blog:
     name: Jing Lu
     description: My Blogs
     title: Science Bank
-    url: http://startupjing.github.io/
-    duoshuo: 
-    tongji: 
+    url: http://startupjing.github.io/ 
 author:
     # Profile links on the left sidebar, leave blank to ignore
     name: Jing Lu
     email: jinglu@wustl.edu
-    weibo:   # weibo ID
-    github: startupjing  # github ID
+    weibo:   
+    github: startupjing  
     linkedin: www.linkedin.com/in/jinglu111
     facebook: https://www.facebook.com/jing.lu.9615
     gplus: 
