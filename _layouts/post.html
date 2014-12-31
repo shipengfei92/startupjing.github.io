@@ -8,7 +8,7 @@ math: true
   <h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
   <p class="post-meta">
     <i class="fa fa-calendar"></i>
-    {{ page.date | date: "%Y" }}Year{{ page.date | date: "%m" }}Month{{ page.date | date: "%d" }}Day
+    {{ page.date | date: "%Y" }}-{{ page.date | date: "%m" }}-{{ page.date | date: "%d" }}
     <i class="space"></i>
     <i class="fa fa-archive"></i>
     <a class="post-category" href="/page/category.html#{{ page.categories }}">{{ page.categories }}</a>	
@@ -36,4 +36,6 @@ math: true
 <span class="pagination-item older">Next&nbsp;<i class="fa fa-chain-broken"></i></span>
 {% endif %}
 </div>
-{% include duoshuo.html %}
+{% include disqus.html %}
+
+

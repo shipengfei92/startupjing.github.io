@@ -12,7 +12,6 @@
   <link rel="canonical" href="{{ site.blog.url }}{{ page.url }}">
   <link rel="stylesheet" href="/res/css/public.css">
   <link rel="stylesheet" href="/res/css/life.css">
-  {% include tongji.html %}
 </head>
 <body>
   <div class="main">
@@ -21,7 +20,7 @@
     <div class="content">
     {{ content }}
     </div>
-    {% if page.duoshuo == true %}{% include duoshuo.html %}{% endif %}
+    {% if page.disqus == true %}{% include disqus.html %}{% endif %}
   </div>
   <div id="top"><a id="rocket" href="javascript:;" title="Back to Top"><i></i></a></div>
   <script src="/res/js/light.js"></script>
