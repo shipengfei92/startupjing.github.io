@@ -11,9 +11,9 @@ title: Personal Blog
 
 - Computer Science and Applied Mathematics
 
-- Class of 2016, Undergraduate student at Washington University in St.Louis
+- Class of 2016, Undergraduate student at [Washington University in St.Louis](https://www.wustl.edu)
 
-- Contact: jinglu@wustl.edu
+- Contact: [LinkedIn](https://www.linkedin.com/in/jinglu111), [Github](https://github.com/startupjing), or email me at jinglu@wustl.edu
 
 
 ### Blog description
