@@ -12,11 +12,9 @@ blog:
 author:
     # Profile links on the left sidebar, leave blank to ignore
     name: Jing Lu
-    email: jinglu@wustl.edu
-    weibo:   
+    email: jinglu@wustl.edu  
     github: startupjing  
     linkedin: www.linkedin.com/in/jinglu111
-    facebook: https://www.facebook.com/jing.lu.9615
-    gplus: 
+    facebook: www.facebook.com/jing.lu.9615
     logo: http://chrispher.github.com/res/img/logo.png
 
