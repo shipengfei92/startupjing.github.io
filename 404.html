@@ -1,7 +1,37 @@
 ---
-layout:         page
-title:          出错啦！
+layout: null
 ---
-<h1>404</h1>
 
-<p>This is not the web page you are looking for.</p>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="icon" href="/res/img/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/res/img/favicon.ico" type="image/x-icon">
+  <title>Cannot find page...</title>
+  <link rel="stylesheet" href="/res/css/404.css">
+  {% include tongji.html %}
+</head>
+<body>
+  <div id="container">
+    <img src="/res/img/404/404.png" class="png"/>
+  </div>
+  <div class="tips">
+    <p>Cannot find page...</p>
+    <p>Error in opening the page...</p>
+    <p id="view"/>
+  </div>
+  <div id="cloud" class="png"></div>
+</body>
+<script>
+  var t = 5;
+  setInterval("testTime()", 1000);
+  function testTime() {
+    view.innerHTML = t + " seconds back to main page...";
+    if(t == 0) {
+      location="{{ site.blog.url }}";
+    }
+    t--;
+  }
+</script>
+</html>

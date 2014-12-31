@@ -1,0 +1,23 @@
+- href: /page/timing.html
+  icon: fa fa-clock-o
+  title: Timeline
+
+- href: /page/category.html
+  icon: fa fa-archive
+  title: Subjects
+
+- href: /page/tags.html
+  icon: fa fa-tags
+  title: Tags
+
+- href: /page/search.html
+  icon: fa fa-search
+  title: Search
+
+- href: /page/about.html
+  icon: fa fa-paper-plane-o
+  title: About
+
+- href: /page/message.html
+  icon: fa fa-bookmark
+  title: Leave a message
