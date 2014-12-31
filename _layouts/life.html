@@ -20,9 +20,8 @@
     <div class="content">
     {{ content }}
     </div>
+    {% if page.disqus == true %}{% include disqus.html %}{% endif %}
 
-   
-   
   </div>
   <div id="top"><a id="rocket" href="javascript:;" title="Back to Top"><i></i></a></div>
   <script src="/res/js/light.js"></script>

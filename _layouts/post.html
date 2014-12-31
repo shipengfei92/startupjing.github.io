@@ -24,11 +24,6 @@ math: true
 
 <div class="post-main">
 {{ content }}
-<div class="comments">
-        {% if page.comments %}
-          {% include comments.ext %}
-        {% endif %}
-      </div>
 </div>
 
 
@@ -45,5 +40,7 @@ math: true
 <span class="pagination-item older">Next&nbsp;<i class="fa fa-chain-broken"></i></span>
 {% endif %}
 </div>
+
+{% include disqus.html %}
 
 

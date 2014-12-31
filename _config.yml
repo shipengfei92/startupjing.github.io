@@ -9,12 +9,13 @@ blog:
     description: My Blogs
     title: Science Bank
     url: http://startupjing.github.io/ 
+    disqus: startupjing111
 author:
     # Profile links on the left sidebar, leave blank to ignore
     name: Jing Lu
     email: jinglu@wustl.edu  
     github: startupjing  
     linkedin: www.linkedin.com/in/jinglu111
-    facebook: www.facebook.com/jing.lu.9615
+    facebook: jing.lu.9615
     logo: http://chrispher.github.com/res/img/logo.png
 
