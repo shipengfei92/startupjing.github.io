@@ -35,9 +35,8 @@ X-Shaped Radio Galaxies are an anomalous, fascinating subset of radio galaxies d
 
 ### Poster
 
-Jake and I participated in the [Brandeis Summer 2013 Division of Science Poster Sesssion](http://www.bio.brandeis.edu/ug/scifest-2013.pdf). Here is our poster:
+Jake and I participated in the [Brandeis Summer 2013 Division of Science Poster Sesssion](http://www.bio.brandeis.edu/ug/scifest-2013.pdf). Here is our [poster](http://students.cec.wustl.edu/~jinglu/files/poster.pdf).
 
-<img src="/images/projects/poster.pdf">
 
 
 
