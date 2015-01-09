@@ -4,9 +4,8 @@ layout: post
 title: Coding in R
 category: Data_Science
 tags: [R]
----
 
-# Coding in R
+---
 
 Contents:
 
