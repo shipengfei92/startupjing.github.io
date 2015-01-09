@@ -11,7 +11,7 @@ Contents:
 
 - [Scoping Rules](#Scoping Rules)
 
-<!--more-->
+<!-- more -->
 
 <a name="Scoping Rules"/>
 
