@@ -6,7 +6,7 @@ paginate_path: page/:num
 
 blog:
     name: Jing Lu
-    quote: Miracle is another name for hardwork.
+    quote: Miracle is just another name for hardwork.
     description: My Blogs
     title: Science Bank
     url: http://startupjing.github.io/ 
